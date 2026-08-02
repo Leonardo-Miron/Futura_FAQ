@@ -1,0 +1,31 @@
+# Configuración para desplegar en Render (https://render.com)
+# Al conectar tu repo de GitHub, Render lee este archivo automáticamente.
+services:
+  - type: web
+    name: futura-help
+    runtime: node
+    plan: free                # gratis para probar. Ver nota de PERSISTENCIA abajo.
+    buildCommand: npm install
+    startCommand: npm start    # el servidor carga el contenido solo en el primer arranque
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true    # Render genera una clave secreta segura
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASS
+        sync: false            # la defines tú (privada) en el panel de Render
+
+# --- PERSISTENCIA (importante) ---
+# El plan 'free' usa disco temporal: las ediciones del panel pueden perderse
+# al reiniciar/redesplegar, y NO permite disco persistente.
+# Para conservar las ediciones necesitas un plan de pago con disco. En ese caso:
+#   1) cambia "plan: free" por un plan de pago (ej. "plan: starter")
+#   2) descomenta el bloque disk de abajo
+#   3) agrega una variable DB_PATH con valor /var/data/futura-help.db
+#
+#     disk:
+#       name: futura-data
+#       mountPath: /var/data
+#       sizeGB: 1
+#
+# Alternativa para escala: migrar de SQLite a Postgres.

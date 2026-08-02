@@ -1,0 +1,576 @@
+{
+  "categories": [
+    {
+      "id": "primeros-pasos",
+      "icon": "🚀",
+      "title": "Primeros pasos",
+      "blurb": "Abre tu cuenta, conoce el flujo general y envía tu primer caso.",
+      "sections": [
+        {
+          "name": "Empezar con Futura",
+          "articles": [
+            {
+              "id": "abrir-cuenta",
+              "title": "Cómo abrir una cuenta con Futura Labs",
+              "excerpt": "Requisitos y activación de tu cuenta de doctor o clínica.",
+              "body": "<p>Para trabajar con Futura necesitas una cuenta en el <b>Portal Clínico</b> (portal.futura.healthcare). El registro lo realiza nuestro equipo comercial contigo.</p>\n      <h2>Qué necesitas</h2>\n      <ul><li>Nombre del consultorio o clínica y datos de contacto.</li>\n      <li>Nombre del o los doctores responsables.</li>\n      <li>Datos fiscales si vas a requerir factura.</li></ul>\n      <h2>Pasos</h2>\n      <ul class=\"steps\"><li>Escríbenos a <span class=\"ph\">ventas@futura.healthcare</span> o al <span class=\"ph\">WhatsApp +52 ___ ___ ____</span>.</li>\n      <li>Validamos tus datos y creamos tu cuenta.</li>\n      <li>Recibes tus credenciales de acceso al portal.</li></ul>\n      <p class=\"ph-block\">CONFIRMAR: correo/WhatsApp comercial y tiempo de activación.</p>"
+            },
+            {
+              "id": "como-funciona",
+              "title": "Cómo funciona el flujo general de un caso",
+              "excerpt": "Del escaneo a la entrega, en una vista rápida.",
+              "body": "<p>Este es el recorrido completo de un caso en Futura:</p>\n      <ul class=\"steps\">\n      <li><b>Creas la orden</b> en el portal y subes el escaneo/archivos.</li>\n      <li>El caso pasa a <b>diseño</b>.</li>\n      <li><b>Apruebas el diseño y pagas</b> el caso. <b>Aquí arranca el tiempo de producción.</b></li>\n      <li>El caso entra a <b>producción</b>.</li>\n      <li>Pasa a <b>inspección</b> (control de calidad).</li>\n      <li>Se marca como <b>enviado</b> y te llega a tu sede; te avisamos por WhatsApp.</li></ul>\n      <div class=\"callout\">Punto clave: la producción <b>no inicia</b> hasta que apruebas el diseño y realizas el pago del caso.</div>"
+            },
+            {
+              "id": "primer-caso-checklist",
+              "title": "Lista de verificación para tu primer caso",
+              "excerpt": "Todo lo que debes revisar antes de enviar tu primer trabajo.",
+              "body": "<p>Sigue esta lista para que tu primer caso llegue completo y sin retrasos.</p>\n      <h2>Antes de escanear</h2>\n      <ul><li>Preparación terminada y márgenes definidos.</li>\n      <li>Tejido retraído y campo seco.</li>\n      <li>Color registrado con foto y guía.</li></ul>\n      <h2>Al crear la orden</h2>\n      <ul><li>Un trabajo por orden.</li>\n      <li>Producto, material y color; piezas en nomenclatura FDI.</li>\n      <li>Anatomía y contactos (oclusal/proximal).</li>\n      <li>Fecha en que necesitas el trabajo.</li></ul>\n      <h2>Antes de enviar</h2>\n      <ul><li>Escaneo revisado (sin huecos ni errores de cosido).</li>\n      <li>Arcada antagonista y registro de mordida incluidos.</li></ul>"
+            }
+          ]
+        },
+        {
+          "name": "Requisitos",
+          "articles": [
+            {
+              "id": "necesito-escaner",
+              "title": "¿Necesito escáner intraoral para enviar casos?",
+              "excerpt": "Opciones digital y física.",
+              "body": "<p>Puedes enviar casos con <b>escáner intraoral</b> subiendo los archivos al portal. Si no cuentas con un escáner, existe la alternativa de modelos o impresión física.</p>\n      <p class=\"ph-block\">CONFIRMAR: alternativa exacta para consultorios sin escáner (impresión/modelos, envío por RAM).</p>"
+            },
+            {
+              "id": "escaneres-compatibles",
+              "title": "Escáneres intraorales compatibles",
+              "excerpt": "Con qué marcas de escáner puedes trabajar.",
+              "body": "<p>Trabajamos con los escáneres más comunes que permiten exportar en formato abierto o enviar a un laboratorio externo.</p>\n      <p class=\"ph-block\">CONFIRMAR: lista de escáneres compatibles (iTero, 3Shape, Medit, etc.) y método de envío al portal.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portal",
+      "icon": "🖥️",
+      "title": "El portal clínico paso a paso",
+      "blurb": "Cada flujo y función del portal explicado: crear orden, aprobar, pagar, incidencias y más.",
+      "sections": [
+        {
+          "name": "Acceso y órdenes",
+          "articles": [
+            {
+              "id": "ingresar-portal",
+              "title": "Qué es el portal clínico y cómo ingresar",
+              "excerpt": "portal.futura.healthcare: tu centro de autogestión.",
+              "body": "<p>El <b>Portal Clínico</b> (portal.futura.healthcare) es tu plataforma de autogestión: desde ahí creas órdenes, subes escaneos, apruebas diseños, pagas, das seguimiento en vivo y registras incidencias — sin tener que escribir al chat para cada trámite.</p>\n      <h2>Cómo ingresar</h2>\n      <ul class=\"steps\"><li>Entra a <b>portal.futura.healthcare</b>.</li>\n      <li>Inicia sesión con tu usuario y contraseña.</li>\n      <li>Verás tu listado de órdenes y el botón para crear una nueva.</li></ul>"
+            },
+            {
+              "id": "crear-orden",
+              "title": "Cómo crear una orden nueva",
+              "excerpt": "El paso a paso para dar de alta un caso.",
+              "body": "<p>Toda solicitud de trabajo empieza creando una orden en el portal.</p>\n      <ul class=\"steps\">\n      <li>Entra al portal y selecciona <b>crear orden</b>.</li>\n      <li>Registra al paciente.</li>\n      <li>Elige el tipo de trabajo, material y color; captura las especificaciones (ver <a onclick=\"go('#/articulo/especificaciones')\">cómo indicar especificaciones</a>).</li>\n      <li>Sube el escaneo o los archivos del caso.</li>\n      <li>Envía la orden; recibirás un acuse y tu <b>número de orden</b>.</li></ul>\n      <div class=\"callout\">Regla general: <b>un trabajo por orden</b>. Varias piezas del mismo trabajo/paciente van en una sola orden con sus especificaciones por diente; trabajos distintos van en órdenes separadas.</div>"
+            },
+            {
+              "id": "especificaciones",
+              "title": "Cómo indicar color, material y detalles por diente",
+              "excerpt": "Los campos de especificación de la orden.",
+              "body": "<p>En la orden hay campos de especificación para que el caso llegue completo a diseño y producción:</p>\n      <ul><li><b>Material</b> y <b>color</b> (colorímetro).</li>\n      <li><b>Nomenclatura FDI</b> de las piezas.</li>\n      <li><b>Anatomía</b> y <b>contactos</b> oclusal/proximal.</li>\n      <li><b>Notas</b> para indicaciones especiales.</li></ul>\n      <p>Si necesitas un color o anatomía distinta en una pieza específica, indícalo <b>por diente</b> para evitar confusiones.</p>\n      <div class=\"callout\">Entre más completa la orden, menos idas y vueltas y más rápido avanza tu caso.</div>"
+            },
+            {
+              "id": "subir-escaneo",
+              "title": "Subir, y reemplazar, un escaneo",
+              "excerpt": "Cómo enviar archivos y actualizar un escaneo.",
+              "body": "<p>El escaneo y los archivos se suben dentro de la orden en el portal; recibirás un acuse. No hace falta enviarlos por chat.</p>\n      <h2>¿Misma orden o una nueva?</h2>\n      <p>Si es el mismo trabajo y paciente y solo agregas archivos, va en la <b>misma orden</b>. Si es un trabajo distinto, crea una <b>orden nueva</b>.</p>\n      <h2>Si reescaneaste (ajuste de mordida, nueva preparación)</h2>\n      <p>Sube el escaneo actualizado indicando claramente que <b>reemplaza al anterior</b>, para que diseño trabaje sobre el registro correcto y no sobre el escaneo viejo.</p>"
+            },
+            {
+              "id": "numero-orden",
+              "title": "Número de orden (OrderId): tu referencia para todo",
+              "excerpt": "Dónde verlo y por qué usarlo siempre.",
+              "body": "<p>El <b>número de orden</b> aparece dentro de la orden en el portal y en el correo/notificación de nuevo trabajo que recibes al crearla.</p>\n      <p>Úsalo como referencia cada vez que nos escribas (estatus, garantía, facturación, recolección): mantiene todo el contexto del caso y agiliza la atención, sin importar qué asesor te atienda.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Seguimiento, diseño y pago",
+          "articles": [
+            {
+              "id": "estatus-vivo",
+              "title": "Ver el estatus de tu caso en vivo",
+              "excerpt": "Las etapas por las que pasa tu orden.",
+              "body": "<p>El portal muestra el estatus de cada caso en tiempo real:</p>\n      <table><tr><th>Estatus</th><th>Qué significa</th></tr>\n      <tr><td>Recibida</td><td>La orden llegó al laboratorio.</td></tr>\n      <tr><td>Diseño</td><td>Se está diseñando la restauración.</td></tr>\n      <tr><td>Producción</td><td>Se está fabricando (inicia tras aprobar y pagar).</td></tr>\n      <tr><td>Inspección</td><td>Control de calidad antes del envío.</td></tr>\n      <tr><td>Enviada</td><td>El caso salió rumbo a tu sede, con número de guía.</td></tr></table>\n      <p>Además te avisamos por WhatsApp en los cambios clave (diseño listo y envío), así que no necesitas estar revisando el portal para saber en qué va tu orden.</p>"
+            },
+            {
+              "id": "aprobar-diseno",
+              "title": "Cómo aprobar el diseño",
+              "excerpt": "Dónde y cómo dar tu visto bueno.",
+              "body": "<p>Cuando el diseño está listo te llega un enlace y una notificación.</p>\n      <ul class=\"steps\"><li>Entra al portal (portal.futura.healthcare).</li>\n      <li>Abre la orden con <b>ver orden</b>.</li>\n      <li>Revisa la propuesta y usa el botón de <b>aprobar</b>.</li></ul>\n      <div class=\"callout\">Hasta que no apruebas el diseño (y pagas), el caso <b>no entra a producción</b>.</div>"
+            },
+            {
+              "id": "pagar-caso",
+              "title": "Pagar el caso para iniciar la producción",
+              "excerpt": "Por qué el sistema pide el pago para avanzar.",
+              "body": "<p>La producción arranca una vez que <b>apruebas el diseño</b> y <b>realizas el pago</b> del caso. Por eso el sistema no deja correr el caso sin el pago: es el comportamiento correcto.</p>\n      <p>Si no te aparece la opción de aprobar o tu línea de crédito, suele ser un tema de saldo/línea o de sesión. Verifica que estés dentro de la orden correcta; si sigue sin aparecer, mándanos tu <b>número de orden</b> y lo revisamos.</p>\n      <p class=\"ph-block\">CONFIRMAR: flujo exacto de crédito/línea y aprobación.</p>"
+            },
+            {
+              "id": "cambios-diseno",
+              "title": "Pedir cambios al diseño",
+              "excerpt": "Cómo solicitar ajustes antes de aprobar.",
+              "body": "<p>Si quieres ajustes, solicítalos desde la orden. El equipo de diseño actualiza la propuesta y te la <b>reenvía</b> para que la apruebes antes de producir.</p>"
+            },
+            {
+              "id": "pedir-definitivos",
+              "title": "Solicitar los definitivos tras la prueba de resina",
+              "excerpt": "Del try-in en resina al trabajo final.",
+              "body": "<p>Cuando la prueba de resina esté aprobada, solicita los definitivos desde la orden en el portal.</p>\n      <p>Si cambió la mordida o la preparación, envía un <b>nuevo escaneo</b> indicando que reemplaza al anterior.</p>\n      <p class=\"ph-block\">CONFIRMAR: si los definitivos van en la misma orden o en una nueva.</p>\n      <div class=\"callout\">Ojo con la garantía: avanzar a definitivo omitiendo pasos o con indicaciones propias puede dejar el caso sin garantía. Consulta <a onclick=\"go('#/articulo/garantia-prueba-resina')\">garantía tras prueba de resina</a>.</div>"
+            }
+          ]
+        },
+        {
+          "name": "Solicitudes dentro del portal",
+          "articles": [
+            {
+              "id": "registrar-incidencia",
+              "title": "Registrar una incidencia o garantía (con fotos)",
+              "excerpt": "El módulo de incidencias para reprocesos.",
+              "body": "<p>Las garantías y reprocesos se gestionan desde el <b>módulo de incidencias</b> del portal.</p>\n      <ul class=\"steps\"><li>Entra a la orden correspondiente.</li>\n      <li>Usa la opción de <b>garantía / incidencia</b>.</li>\n      <li>Indica el motivo y <b>adjunta evidencia fotográfica</b> (boca, escaneo, pieza).</li>\n      <li>Si aplica (ajuste o fractura), sube el <b>nuevo escaneo</b>.</li></ul>\n      <p>El equipo evalúa la incidencia y le da seguimiento. Consulta la sección de <a onclick=\"go('#/categoria/garantia')\">Garantía e incidencias</a>.</p>"
+            },
+            {
+              "id": "refinamiento-alineadores",
+              "title": "Solicitar un refinamiento de alineadores",
+              "excerpt": "Ajuste del plan por caso.",
+              "body": "<p>El refinamiento de alineadores es una solicitud self-serve por caso: se pide desde el detalle de la orden del paciente.</p>\n      <p class=\"ph-block\">CONFIRMAR: pasos exactos y si el refinamiento tiene costo.</p>"
+            },
+            {
+              "id": "solicitar-recoleccion",
+              "title": "Solicitar la recolección de una prueba física (RAM)",
+              "excerpt": "Cuando envías pruebas físicas por paquetería.",
+              "body": "<p>Cuando necesitas que se recoja una prueba física enviada por RAM (paquetería), hoy se coordina con tu asesor/soporte.</p>\n      <ul class=\"steps\"><li>Contáctanos indicando tu <b>número de orden</b> y el paciente.</li>\n      <li>Compártenos la dirección de origen y el contacto.</li>\n      <li>Te pasamos el <b>número de recolección</b>.</li></ul>\n      <p>También puedes dejar la prueba en una sucursal de paquetería si lo prefieres.</p>\n      <p class=\"ph-block\">CONFIRMAR: cobertura de recolección y si habrá opción self-serve en el portal.</p>"
+            },
+            {
+              "id": "recuperar-contrasena",
+              "title": "Recuperar tu contraseña",
+              "excerpt": "Restablece el acceso al portal.",
+              "body": "<p>Usa la opción de <b>recuperar contraseña</b> en la pantalla de inicio del portal. Si tu correo cambió, escríbenos para actualizar tu acceso.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escaneo",
+      "icon": "📤",
+      "title": "Escaneo y calidad del caso",
+      "blurb": "Mejores prácticas clínicas para capturar impresiones digitales de alta calidad.",
+      "sections": [
+        {
+          "name": "Mejores prácticas",
+          "articles": [
+            {
+              "id": "buenas-practicas",
+              "title": "Buenas prácticas para un escaneo de alta calidad",
+              "excerpt": "Los básicos que reducen reprocesos y remakes.",
+              "body": "<p>Un buen escaneo es la base de una restauración que ajusta a la primera.</p>\n      <ul><li><b>Campo limpio y seco:</b> controla saliva, sangre y fluido del surco antes de escanear el margen.</li>\n      <li><b>Retracción:</b> expón la línea de terminación completa.</li>\n      <li><b>Secuencia consistente:</b> oclusal → lingual → vestibular, con movimientos lentos y continuos.</li>\n      <li><b>Registros:</b> captura la arcada antagonista y la mordida.</li>\n      <li><b>Revisión:</b> verifica que no haya huecos ni errores de cosido antes de enviar.</li></ul>"
+            },
+            {
+              "id": "toma-de-color",
+              "title": "Cómo tomar el color correctamente",
+              "excerpt": "Evita remakes por color con estos consejos.",
+              "body": "<p>El color se registra mejor al inicio de la cita, con el diente hidratado.</p>\n      <ul><li>Usa luz natural o luz corregida.</li>\n      <li>Coloca la guía de color junto a la pieza y toma una foto.</li>\n      <li>Para el sector anterior, envía varias fotos (con y sin flash) y de distintos ángulos.</li>\n      <li>Indica el color del muñón, que influye en el resultado final.</li></ul>\n      <p class=\"ph-block\">CONFIRMAR: guía de color que usa Futura (VITA Classical, 3D-Master u otra).</p>"
+            },
+            {
+              "id": "registro-mordida",
+              "title": "Registro de mordida: cómo capturarlo correctamente",
+              "excerpt": "Un buen registro de oclusión evita ajustes y remakes.",
+              "body": "<p>El registro de mordida define la oclusión de tu restauración. Un registro incorrecto genera puntos altos y ajustes en el sillón.</p>\n      <ul><li>Pide morder en máxima intercuspidación y verifica que sea repetible.</li>\n      <li>En digital, captura el registro en ambos lados.</li>\n      <li>Confirma que las arcadas encajen sin espacios ni interferencias.</li>\n      <li>Si alteras la dimensión vertical, indícalo en la orden.</li></ul>"
+            },
+            {
+              "id": "errores-comunes-escaneo",
+              "title": "Errores comunes de escaneo y cómo evitarlos",
+              "excerpt": "Los descuidos que más provocan reprocesos.",
+              "body": "<table><tr><th>Error</th><th>Cómo evitarlo</th></tr>\n      <tr><td>Margen cubierto por tejido o sangre</td><td>Retrae y seca antes de capturar el margen</td></tr>\n      <tr><td>Zonas con huecos</td><td>Escanea con movimientos lentos y continuos</td></tr>\n      <tr><td>Error de cosido (stitching)</td><td>Borra la zona y reescanea sin levantar el escáner</td></tr>\n      <tr><td>Falta de antagonista o mordida</td><td>Incluye siempre ambas arcadas y el registro</td></tr>\n      <tr><td>Reducción insuficiente</td><td>Verifica el espacio oclusal antes de terminar</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "name": "Escaneo por tipo de caso",
+          "articles": [
+            {
+              "id": "escaneo-corona-puente",
+              "title": "Escaneo de corona y puente (línea de terminación)",
+              "excerpt": "El margen es lo más importante.",
+              "body": "<p>El punto crítico en corona y puente es la línea de terminación: debe verse continua y sin interferencias.</p>\n      <ul><li>Usa retracción (doble hilo u otra técnica) para exponer márgenes subgingivales.</li>\n      <li>Escanea el margen con el diente seco.</li>\n      <li>Verifica el espacio oclusal en la reducción.</li>\n      <li>Captura al menos un diente vecino a cada lado y la oclusión.</li></ul>"
+            },
+            {
+              "id": "escaneo-implante",
+              "title": "Escaneo de casos sobre implante (scan body)",
+              "excerpt": "Cómo capturar un caso sobre implante.",
+              "body": "<p>Coloca el <b>scan body</b> correcto y verifica que quede completamente asentado. Escanea el scan body, la arcada completa, la antagonista y la mordida, e indica en la orden la marca y plataforma del implante.</p>\n      <p class=\"ph-block\">CONFIRMAR: marcas de scan body compatibles y si el laboratorio los presta.</p>"
+            },
+            {
+              "id": "escaneo-protesis",
+              "title": "Escaneo para prótesis (total o parcial)",
+              "excerpt": "Captura toda la extensión del reborde.",
+              "body": "<p>Captura toda la extensión del reborde, incluyendo fondos de saco y sellado posterior en dentaduras totales. Un escaneo incompleto de los bordes suele requerir repetición.</p>\n      <p class=\"ph-block\">CONFIRMAR: si aceptas escaneo directo de rebordes edéntulos o requieres impresión física para totales.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productos",
+      "icon": "🦷",
+      "title": "Productos y servicios",
+      "blurb": "Catálogo de restauraciones y aparatos, con opciones de material.",
+      "sections": [
+        {
+          "name": "Coronas, puentes y estética",
+          "articles": [
+            {
+              "id": "materiales-fijos",
+              "title": "Opciones de material para restauraciones fijas",
+              "excerpt": "Zirconia, e.max y PFM: cuándo usar cada uno.",
+              "body": "<table><tr><th>Material</th><th>Indicación típica</th><th>Ventaja</th></tr>\n      <tr><td>Zirconia monolítica</td><td>Posteriores, alta carga</td><td>Máxima resistencia</td></tr>\n      <tr><td>Zirconia estratificada</td><td>Anteriores y estética</td><td>Estética + resistencia</td></tr>\n      <tr><td>Disilicato de litio (e.max)</td><td>Anteriores, carillas, incrustaciones</td><td>Estética superior</td></tr>\n      <tr><td>Metal-porcelana (PFM)</td><td>Coronas y puentes convencionales</td><td>Opción probada y económica</td></tr></table>\n      <p>Como guía: posteriores/puentes → zirconia; anteriores/carillas → e.max; PFM como opción universal.</p>\n      <p class=\"ph-block\">CONFIRMAR: tiempo de entrega de definitivos por producto.</p>"
+            },
+            {
+              "id": "comparativa-materiales",
+              "title": "Comparativa rápida de materiales",
+              "excerpt": "Una tabla para decidir el material.",
+              "body": "<table><tr><th>Criterio</th><th>Zirconia</th><th>e.max</th><th>PFM</th></tr>\n      <tr><td>Estética</td><td>Alta</td><td>Muy alta</td><td>Media-alta</td></tr>\n      <tr><td>Resistencia</td><td>Muy alta</td><td>Alta</td><td>Alta</td></tr>\n      <tr><td>Sector ideal</td><td>Posterior/puentes</td><td>Anterior/carillas</td><td>Universal</td></tr>\n      <tr><td>Costo relativo</td><td><span class=\"ph\">[definir]</span></td><td><span class=\"ph\">[definir]</span></td><td><span class=\"ph\">[definir]</span></td></tr></table>"
+            },
+            {
+              "id": "carillas",
+              "title": "Carillas (veneers): opciones y preparación",
+              "excerpt": "Estética anterior con mínima reducción.",
+              "body": "<p>Las carillas son restauraciones delgadas para el sector anterior. Materiales típicos: disilicato de litio (e.max) o cerámica feldespática estratificada.</p>\n      <ul><li>Preparación conservadora con márgenes definidos.</li>\n      <li>Registro de color detallado (fotos con y sin flash).</li>\n      <li>Diseño digital previo recomendado para casos múltiples.</li></ul>\n      <p class=\"ph-block\">CONFIRMAR: reducción mínima y si ofreces mock-up previo.</p>"
+            },
+            {
+              "id": "incrustaciones",
+              "title": "Incrustaciones: inlay, onlay y overlay",
+              "excerpt": "Restauraciones parciales que conservan estructura.",
+              "body": "<table><tr><th>Tipo</th><th>Cubre</th></tr>\n      <tr><td>Inlay</td><td>Interior del diente, sin cúspides</td></tr>\n      <tr><td>Onlay</td><td>Una o más cúspides</td></tr>\n      <tr><td>Overlay</td><td>Toda la superficie oclusal</td></tr></table>\n      <p>Materiales típicos: e.max o zirconia, según carga y estética.</p>"
+            },
+            {
+              "id": "aletas-piezas-extra",
+              "title": "¿Las aletas o piezas extra se cobran como corona?",
+              "excerpt": "Cómo se cotizan los elementos adicionales.",
+              "body": "<p>Indica cualquier aleta o pieza extra al crear la orden para cotizarla correctamente desde el inicio.</p>\n      <p class=\"ph-block\">CONFIRMAR: política de precios de aletas / pónticos / piezas extra.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Implantes y removibles",
+          "articles": [
+            {
+              "id": "trabajos-implante",
+              "title": "Trabajos sobre implante que realizamos",
+              "excerpt": "Coronas, pilares, híbridas y sobredentaduras.",
+              "body": "<ul><li>Coronas atornilladas y cementadas sobre implante.</li>\n      <li>Pilares personalizados (custom abutments).</li>\n      <li>Prótesis híbridas y barras.</li>\n      <li>Sobredentaduras con aditamentos tipo locator.</li></ul>\n      <p class=\"ph-block\">CONFIRMAR: sistemas de implante compatibles y si usas aditamentos originales, genéricos o ambos.</p>"
+            },
+            {
+              "id": "atornillada-vs-cementada",
+              "title": "Atornillada o cementada: cómo elegir",
+              "excerpt": "Ventajas de cada método de retención.",
+              "body": "<table><tr><th>Atornillada</th><th>Cementada</th></tr>\n      <tr><td>Fácil retiro y mantenimiento</td><td>Mejor estética con eje no ideal</td></tr>\n      <tr><td>Sin cemento subgingival</td><td>Buena pasividad</td></tr></table>\n      <p>Indícanos tu preferencia o solicita nuestra recomendación.</p>"
+            },
+            {
+              "id": "removibles",
+              "title": "Prótesis removibles: parciales y totales",
+              "excerpt": "Metálica, flexible, acrílico y dentaduras totales.",
+              "body": "<p><b>Parciales:</b> base metálica de cromo-cobalto, flexibles o acrílico.</p>\n      <p><b>Totales:</b> en acrílico, con flujo de rodetes de cera, prueba en cera (try-in) y terminado.</p>\n      <p class=\"ph-block\">CONFIRMAR: número de pruebas del protocolo y tiempos de entrega.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Guardas, ortodoncia e impresos",
+          "articles": [
+            {
+              "id": "guardas",
+              "title": "Guardas y placas oclusales (bruxismo)",
+              "excerpt": "Rígida, flexible o dual.",
+              "body": "<p>Fabricamos guardas oclusales. Al crear la orden, especifica el tipo de estructura (rígida/flexible), la arcada, el material y el espesor para producirla correctamente.</p>\n      <p class=\"ph-block\">CONFIRMAR: materiales y espesores disponibles.</p>"
+            },
+            {
+              "id": "alineadores",
+              "title": "Alineadores y plan digital",
+              "excerpt": "Planeación en 3–5 días hábiles.",
+              "body": "<p>A partir de un escaneo generamos un plan de tratamiento digital con la secuencia de movimientos para tu aprobación antes de fabricar los alineadores.</p>\n      <div class=\"callout\">La <b>planeación de alineadores</b> tarda aproximadamente <b>3–5 días hábiles</b>.</div>\n      <p class=\"ph-block\">CONFIRMAR: alcance de casos que aceptas y esquema de precios por etapa.</p>"
+            },
+            {
+              "id": "modelos-guias-tipodontos",
+              "title": "Modelos impresos, guías quirúrgicas y tipodontos",
+              "excerpt": "Otros trabajos que puedes ordenar.",
+              "body": "<p>Sí, puedes solicitarlos como una orden en el portal seleccionando el tipo de trabajo: modelos impresos, guía quirúrgica o tipodonto. El costo depende del tipo.</p>\n      <p class=\"ph-block\">CONFIRMAR: catálogo completo y precios de impresos.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedidos",
+      "icon": "📦",
+      "title": "Estatus, tiempos y cambios",
+      "blurb": "Cuándo llega tu caso, cómo darle seguimiento y cómo hacer cambios.",
+      "sections": [
+        {
+          "name": "Tiempos y seguimiento",
+          "articles": [
+            {
+              "id": "cuando-listo",
+              "title": "¿Cuándo estará listo el trabajo de mi paciente?",
+              "excerpt": "Cómo ver el estatus y qué determina el tiempo.",
+              "body": "<p>Puedes ver el estatus en tiempo real en el portal (recibida → diseño → producción → inspección → enviada). El tiempo de producción <b>corre a partir de que apruebas el diseño y pagas</b> el caso.</p>\n      <p>Como referencia, los definitivos tardan <span class=\"ph\">[X días hábiles]</span> según el tipo de trabajo.</p>"
+            },
+            {
+              "id": "dias-por-producto",
+              "title": "¿Cuántos días hábiles tarda cada trabajo?",
+              "excerpt": "Estimados por tipo de producto.",
+              "body": "<p>El tiempo empieza tras la aprobación del diseño y el pago.</p>\n      <table><tr><th>Trabajo</th><th>Tiempo estimado</th></tr>\n      <tr><td>Coronas e incrustaciones</td><td><span class=\"ph\">[X días hábiles]</span></td></tr>\n      <tr><td>Planeación de alineadores</td><td>3–5 días hábiles</td></tr>\n      <tr><td>Guardas</td><td><span class=\"ph\">[X días hábiles]</span></td></tr>\n      <tr><td>Prótesis / sobre implante</td><td><span class=\"ph\">[X días hábiles]</span></td></tr></table>\n      <p>Después el caso sale de producción, pasa a inspección y se despacha.</p>"
+            },
+            {
+              "id": "como-se-envio",
+              "title": "¿Cómo sé si mi caso ya se envió?",
+              "excerpt": "Notificación de envío y guía.",
+              "body": "<p>El portal marca el caso como <b>enviado</b> e incluye el número de guía/recolección; además te avisamos por WhatsApp. Una vez que sale de producción pasa a inspección y se despacha a tu sede.</p>"
+            },
+            {
+              "id": "me-avisan",
+              "title": "¿Me avisan cuándo esté listo o reviso el portal?",
+              "excerpt": "Notificaciones y estatus en vivo.",
+              "body": "<p>Ambos: el portal muestra el estatus en vivo y te notificamos por WhatsApp los cambios clave (diseño listo y envío). No necesitas escribir para saber en qué va tu orden.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Cambios y urgencias",
+          "articles": [
+            {
+              "id": "caso-urgente",
+              "title": "Tengo un caso urgente, ¿cómo lo priorizo?",
+              "excerpt": "Indica la fecha que necesitas.",
+              "body": "<p>Indícalo al crear la orden y avísale a tu asesor con la <b>fecha en que necesitas el trabajo</b>. Hacemos lo posible por priorizarlo según la capacidad de producción y te confirmamos si es viable en tu fecha.</p>\n      <p class=\"ph-block\">CONFIRMAR: si existe un servicio express / de prioridad y su costo.</p>"
+            },
+            {
+              "id": "varias-piezas",
+              "title": "Tengo varias piezas o trabajos, ¿una orden o varias?",
+              "excerpt": "La regla de un trabajo por orden.",
+              "body": "<p>Regla general: <b>un trabajo por orden</b>. Varias piezas del mismo trabajo/paciente van en una orden con sus especificaciones por diente; trabajos distintos van en <b>órdenes separadas</b>.</p>\n      <p class=\"ph-block\">CONFIRMAR: regla exacta para casos mixtos.</p>"
+            },
+            {
+              "id": "editar-cancelar",
+              "title": "Editar o cancelar un pedido",
+              "excerpt": "Hasta qué punto puedes hacer cambios.",
+              "body": "<p>Puedes ajustar indicaciones mientras el caso no haya avanzado a producción. Como la producción inicia tras aprobar y pagar, ese es el punto de referencia. Para cambios o cancelaciones, contáctanos con tu <b>número de orden</b> cuanto antes.</p>\n      <p class=\"ph-block\">CONFIRMAR: política de cancelación según la etapa.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garantia",
+      "icon": "🛠️",
+      "title": "Garantía e incidencias",
+      "blurb": "Cómo reportar un problema, qué cubre la garantía y cómo funcionan los reprocesos.",
+      "sections": [
+        {
+          "name": "Solicitar garantía o reproceso",
+          "articles": [
+            {
+              "id": "solicitar-garantia",
+              "title": "Cómo solicito una garantía o un reproceso",
+              "excerpt": "El módulo de incidencias del portal.",
+              "body": "<p>Desde el portal, dentro de la orden, usa la opción de <b>garantía/incidencia</b>: indica el motivo y adjunta evidencia (fotos de la boca, el escaneo o la pieza). El equipo la evalúa y le da seguimiento.</p>\n      <div class=\"callout\">Para incidencias de <b>ajuste o fractura</b>, sube el <b>nuevo escaneo</b> al registrar la incidencia: diseño trabajará sobre él y no sobre el escaneo original.</div>"
+            },
+            {
+              "id": "tiempo-garantia",
+              "title": "¿Cuánto tiempo tengo de garantía?",
+              "excerpt": "La ventana de tiempo aplicable.",
+              "body": "<p>La garantía aplica dentro de <span class=\"ph\">[X meses]</span> desde la entrega. Fuera de ese periodo no procede.</p>\n      <p class=\"ph-block\">CONFIRMAR: periodo de garantía por tipo de producto.</p>"
+            },
+            {
+              "id": "repeticion-parcial",
+              "title": "¿Repiten todo el caso o solo la pieza que falló?",
+              "excerpt": "Selección de unidades a repetir.",
+              "body": "<p>En casos de varias unidades, indícanos qué unidad(es) falló para repetir solo lo necesario y no todo el caso. Márcalo al registrar la incidencia.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Cobertura de la garantía",
+          "articles": [
+            {
+              "id": "garantia-prueba-resina",
+              "title": "Prueba de resina y definitivo: ¿conservo la garantía?",
+              "excerpt": "Cuándo puede quedar sin garantía.",
+              "body": "<p>Si avanzas a material definitivo después de una prueba de resina <b>omitiendo pasos o con indicaciones propias</b>, el caso puede quedar <b>sin garantía</b>. Te confirmamos el estatus antes de proceder.</p>"
+            },
+            {
+              "id": "por-que-no-aplica",
+              "title": "¿Por qué no aplica la garantía en mi caso?",
+              "excerpt": "Las causas más frecuentes.",
+              "body": "<p>Las causas más comunes son:</p>\n      <ul><li>Estar fuera de la ventana de tiempo.</li>\n      <li>Cambios u omisiones indicadas por el doctor.</li>\n      <li>Falta de evidencia.</li>\n      <li>Causas clínicas no atribuibles al laboratorio (por ejemplo, mala preparación del muñón o registro de mordida incorrecto).</li></ul>\n      <p>Siempre te indicamos el motivo puntual.</p>"
+            },
+            {
+              "id": "reproceso-costo",
+              "title": "Si rehacen la orden, ¿pago de nuevo?",
+              "excerpt": "Costo de un reproceso.",
+              "body": "<p>En reprocesos que proceden por garantía <b>no hay costo adicional</b>. Si es un trabajo nuevo o fuera de garantía, sí genera cargo; te lo confirmamos antes de avanzar.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "facturacion",
+      "icon": "💳",
+      "title": "Precios, pago y facturación",
+      "blurb": "Costos, pago del caso, saldo a favor y facturación.",
+      "sections": [
+        {
+          "name": "Precios y pago",
+          "articles": [
+            {
+              "id": "cuanto-cuesta",
+              "title": "¿Cuánto cuesta un trabajo o material?",
+              "excerpt": "Cómo se confirma el costo.",
+              "body": "<p>Al crear la orden con sus especificaciones, el sistema o tu asesor te confirma el costo antes de producir.</p>\n      <p class=\"ph-block\">CONFIRMAR: tabla de precios por tipo de trabajo y material.</p>"
+            },
+            {
+              "id": "pago-para-producir",
+              "title": "¿Tengo que aprobar y pagar para que empiece la producción?",
+              "excerpt": "Sí: es parte del flujo.",
+              "body": "<p>Sí. La producción arranca una vez que apruebas el diseño y realizas el pago del caso. Por eso el sistema pide el pago para avanzar. Consulta <a onclick=\"go('#/articulo/pagar-caso')\">pagar el caso</a>.</p>"
+            },
+            {
+              "id": "saldo-a-favor",
+              "title": "¿Puedo pagar con mi saldo a favor?",
+              "excerpt": "Uso de saldo en una orden.",
+              "body": "<p>Indícanos que quieres aplicar tu saldo a favor y lo revisamos para tu orden.</p>\n      <p class=\"ph-block\">CONFIRMAR: si el saldo aplica total o parcialmente según política.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Facturación",
+          "articles": [
+            {
+              "id": "tema-facturacion",
+              "title": "Tengo un tema de facturación, ¿con quién lo veo?",
+              "excerpt": "Cómo canalizar una factura.",
+              "body": "<p>Compártenos el <b>número de orden</b> y tus datos fiscales y lo canalizamos con el área de facturación.</p>\n      <p class=\"ph-block\">CONFIRMAR: canal de facturación (correo / portal) y datos requeridos para CFDI.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logistica",
+      "icon": "🚚",
+      "title": "Recolección, envío y logística",
+      "blurb": "Cómo recogemos pruebas físicas y cómo entregamos el trabajo terminado.",
+      "sections": [
+        {
+          "name": "Recolección y entrega",
+          "articles": [
+            {
+              "id": "recogen-o-llevo",
+              "title": "¿Ustedes recogen el caso o lo llevo yo?",
+              "excerpt": "Recolección por mensajería (RAM).",
+              "body": "<p>Coordinamos la recolección con mensajería: compártenos la dirección y el contacto, y te pasamos el <b>número de recolección</b>. También puedes dejar la prueba en una sucursal de paquetería si lo prefieres. Ver <a onclick=\"go('#/articulo/solicitar-recoleccion')\">cómo solicitar la recolección</a>.</p>\n      <p class=\"ph-block\">CONFIRMAR: cobertura de recolección por zona (MX / CO).</p>"
+            },
+            {
+              "id": "entrega-consultorio",
+              "title": "¿Entregan en el consultorio o voy por el trabajo?",
+              "excerpt": "Entrega en tu sede.",
+              "body": "<p>Entregamos en tu sede/consultorio vía mensajería.</p>\n      <p class=\"ph-block\">CONFIRMAR: cobertura de entrega por zona (MX / CO).</p>"
+            },
+            {
+              "id": "tiempo-paqueteria",
+              "title": "¿Cuánto tarda la paquetería en llegar?",
+              "excerpt": "Tiempos de tránsito y rastreo.",
+              "body": "<p>Aproximadamente <span class=\"ph\">[X días]</span> según el destino, una vez despachado. Te compartimos la guía para que lo rastrees.</p>"
+            }
+          ]
+        },
+        {
+          "name": "Empaque",
+          "articles": [
+            {
+              "id": "empaque-etiqueta",
+              "title": "¿Cómo debo empacar y etiquetar la caja del caso?",
+              "excerpt": "Que el número de orden vaya visible.",
+              "body": "<p>Incluye en la caja el documento de la orden con el <b>número de orden</b> visible y el contenido descrito. Protege bien las pruebas para evitar deformaciones.</p>\n      <p class=\"ph-block\">CONFIRMAR: instrucciones exactas (si el documento va por fuera o dentro, y qué debe decir el concepto del contenido).</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documentacion",
+      "icon": "📄",
+      "title": "Documentación y cuidados",
+      "blurb": "Instrucciones de uso y cuidados para ti y para el paciente.",
+      "sections": [
+        {
+          "name": "Cuidados",
+          "articles": [
+            {
+              "id": "post-cementado",
+              "title": "Indicaciones tras el cementado o la entrega",
+              "excerpt": "Qué decirle al paciente el día de la colocación.",
+              "body": "<ul><li>Es normal una ligera sensibilidad los primeros días.</li>\n      <li>Evitar alimentos muy duros o pegajosos las primeras horas.</li>\n      <li>Mantener excelente higiene alrededor de la restauración.</li>\n      <li>Si la mordida se siente alta, acudir a revisión para un ajuste oclusal.</li>\n      <li>Usar guarda nocturna si hay bruxismo.</li></ul>"
+            },
+            {
+              "id": "cuidado-protesis",
+              "title": "Cuidado de prótesis removibles y guardas",
+              "excerpt": "Limpieza y conservación.",
+              "body": "<p>Limpieza diaria con cepillo suave y limpiador específico (no pasta abrasiva ni agua caliente, que puede deformar el acrílico). Retirarla para dormir cuando el profesional lo indique y guardarla en un recipiente adecuado.</p>"
+            },
+            {
+              "id": "ifu",
+              "title": "Instrucciones de uso (IFU) y fichas técnicas",
+              "excerpt": "Documentación de cada producto.",
+              "body": "<p>Cada producto cuenta con su instructivo de uso y, cuando aplica, su ficha de materiales.</p>\n      <p class=\"ph-block\">CONFIRMAR: enlace a la biblioteca de IFU / fichas técnicas.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soporte",
+      "icon": "⏱️",
+      "title": "Atención y soporte",
+      "blurb": "Horario, cómo te atendemos y datos de contacto.",
+      "sections": [
+        {
+          "name": "Atención",
+          "articles": [
+            {
+              "id": "horario",
+              "title": "¿Cuál es el horario de atención?",
+              "excerpt": "Cuándo estamos disponibles.",
+              "body": "<p>Atención de <b>lunes a viernes de 9:00 a 18:00 h</b>. Fuera de ese horario recibes una respuesta automática y te contestamos al reabrir.</p>\n      <p class=\"ph-block\">CONFIRMAR: horario y fines de semana por país (MX / CO).</p>"
+            },
+            {
+              "id": "mismo-asesor",
+              "title": "¿Me atiende siempre la misma persona?",
+              "excerpt": "Cómo trabaja el equipo tu caso.",
+              "body": "<p>El equipo trabaja tus casos de forma coordinada, así que puede atenderte más de un asesor. El <b>número de orden</b> mantiene todo el contexto para que no tengas que repetir la información.</p>"
+            },
+            {
+              "id": "contacto",
+              "title": "Datos de contacto",
+              "excerpt": "Teléfono, WhatsApp, correo y portal.",
+              "body": "<p>Estos son nuestros canales de contacto:</p>\n      <ul><li><b>WhatsApp:</b> <span class=\"ph\">+52 ___ ___ ____</span></li>\n      <li><b>Teléfono:</b> <span class=\"ph\">+52 ___ ___ ____</span></li>\n      <li><b>Correo:</b> <span class=\"ph\">soporte@futura.healthcare</span></li>\n      <li><b>Portal:</b> portal.futura.healthcare</li>\n      <li><b>Horario:</b> Lun–Vie 9:00–18:00 h</li></ul>\n      <p class=\"ph-block\">CONFIRMAR: números y correos oficiales por país (MX / CO).</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "whatsapp": "<span class=\"ph\">+52 ___ ___ ____</span>",
+    "telefono": "<span class=\"ph\">+52 ___ ___ ____</span>",
+    "correo": "<span class=\"ph\">soporte@futura.healthcare</span>",
+    "horario": "Lun–Vie 9:00–18:00 h",
+    "portal": "portal.futura.healthcare",
+    "cobertura": "<span class=\"ph\">MX / CO — confirmar zonas</span>"
+  }
+}
