@@ -10,7 +10,7 @@ Sitio de ayuda self-serve para doctores **+ backend simple** para que el equipo 
 
 ## Requisitos
 
-- Node.js 18 o superior (probado en Node 22).
+- Node.js 24.x (Render sigue `engines.node` en `package.json`).
 
 ## Instalación y arranque
 
